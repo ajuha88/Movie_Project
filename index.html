@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Search For Your Favorite Movie!">
+  <meta name="author" content="Group Project #2">
+
+  <title>Movie Search</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Movie Search - Group Project #2</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Movie Search
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visualizations.html">Movie Visualizations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-12">
+        
+        <!-- TITLE -->
+        <h1 class="font-weight-light" style="text-align:center">Search For Your Favorite Movie!</h1>
+        <p style="text-align:center">Use the search bar below to search for your favorite film - we'll pull information from the Open Movie Database API.</p>
+        <!-- END TITLE -->
+        <!-- SEARCH BAR -->
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for a movie...">
+          <span class="input-group-btn">
+            <button class="btn btn-search" type="button" style="background-color:blue;color:white;"><i class="fa fa-search fa-fw"></i> Search</button>
+          </span>
+        </div>
+      </div>
+        
+    </div>
+      <!-- END SEARCH BAR -->
+
+    <!-- MOVIE TITLE -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div id="movie-title">
+        <h2>MOVIE TITLE PLACEHOLDER</h2>
+      </div>
+      <!-- END MOVIE TITLE -->
+    </div>
+
+    <!-- MOVIE DESCRIPTION START -->
+    <div class="row" id="movie-description">
+      <div class="col-md-12">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Description</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MOVIE DESCRIPTION -->
+
+    <!-- MOVIE DETAILS -->
+    <div class="row">
+      <div class="col-md-6" id="movie-info">
+        <h4>Release date: <span id="release-date"></span></h4>
+        <h4>Rating: <span id="rating"></span></h4>
+        <h4>Box office gross: <span id="box-office"></span></h4>
+        <h4>Rotten Tomatoes score: <span id="rotten-tomatoes-score"></span></h4>
+      </div>
+      <div class="col-md-6">
+        <!-- EMPTY COL -->
+      </div>
+    </div>
+    <!-- END MOVIE DETAILS -->
+
+  </div><!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Group 2, Cal Berkeley Data Analytics Bootcamp 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
