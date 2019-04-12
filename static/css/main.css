@@ -1,0 +1,17 @@
+
+body {
+  padding-top: 56px;
+}
+
+
+#movie-description{
+	margin-bottom:5%;
+}
+
+#movie-info{
+	margin-bottom:5%;
+}
+
+.movie-details{
+	font-weight: 300;
+}
