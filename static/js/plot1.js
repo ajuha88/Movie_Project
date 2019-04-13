@@ -23,7 +23,7 @@ function buildPlot() {
 
     layout = {
         hovermode:'closest',
-        title:'<b>Comparing Rating to IMDB Score</b>',
+        title:'<b>Comparing Rating to Metacritic Data Score</b>',
         xaxis:{zeroline:false, hoverformat: '.2f', title: '<b>Rating</b>'},
         yaxis:{zeroline:false, hoverformat: '.2r', title: '<b>IMDB Score</b>'}
      };
